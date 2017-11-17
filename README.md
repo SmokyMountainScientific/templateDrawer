@@ -1,2 +1,3 @@
 # templateDrawer
-Processing code for making pdf files for building templates
+The goal of this project is to enable makers to construct items out of plate or angle aluminum that require fairly accurate drilling.  This can be done by writing a program to generate a pdf file that can be printed at scale.  The print is then glued to aluminum bar or angle.  Using the pdf as a template, the positions of holes can be punched and drilled.  
+The simpleTemplate program introduces novices to Processing code for making pdf files.  It demonstrates how code can be written to make simple features such as lines, circles, rectanges and text.  It also shows how to generate groups of features in methods that can be called with differing poitions, angles, etc.
