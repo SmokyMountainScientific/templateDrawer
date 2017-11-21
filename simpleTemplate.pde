@@ -1,5 +1,5 @@
 import processing.pdf.*;
-
+String name = "fileName.pdf";
 ///////// conversions //////
 float size = 2.83;      // convert from pixels to mm
 float inchConv = 25.4;  //  convert from mm to in
@@ -19,7 +19,7 @@ float circ2Diam = 34*size/2;
 
 void setup(){
   size (275,350);  // size of window
-  beginRecord(PDF,"simpleTemplate.pdf");
+  beginRecord(PDF,name);
   background(255);  // white background
   stroke(0);         // black lines
   noLoop();
@@ -36,7 +36,7 @@ void draw(){
    line(-50,0,20,0);
    fill(0);               // text color
    text("line 1",20,50);
-   text("Simple template text",-20,-10);
+   text(name,-20,-10);
    noFill();    /*          // 
    ellipse(circ1X,circ1Y,circ1Diam,circ1Diam);
    ellipse(circ2X,circ2Y,circ2Diam,circ2Diam);
